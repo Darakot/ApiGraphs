@@ -44,7 +44,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunManager">
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581934402547</updated>
       <workItem from="1581934406077" duration="2329000" />
-      <workItem from="1581936757637" duration="4476000" />
+      <workItem from="1581936757637" duration="4806000" />
     </task>
     <servers />
   </component>
@@ -111,10 +111,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581942356521" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1581936843220">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1581943132652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581936843220" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581943132652" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581936757166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
