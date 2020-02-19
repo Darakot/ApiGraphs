@@ -1,9 +1,11 @@
 package com.defascon.Graphs.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.NoArgsConstructor;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * Класс неопределенного графа
@@ -16,20 +18,9 @@ import java.util.*;
  * если граф пустой выдаст исключение NullPointerException
  */
 
-@Getter
-@Setter
+@NoArgsConstructor
 public class UndirectedGraph {
-    private String name;
     private HashMap<String, List<String>> vertexMap = new HashMap<>();
-
-
-    public UndirectedGraph(HashMap<String, List<String>> vertexMap,String name) {
-        this.vertexMap = vertexMap;
-        this.name = name;
-    }
-
-    public UndirectedGraph() {
-    }
 
     /**
      * @param vertexName - имя вершины
