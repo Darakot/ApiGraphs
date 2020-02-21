@@ -1,0 +1,34 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: TestSwagger
+paths:
+  /api/graphBuilding:
+    post:
+      responses:
+        '200':
+          description: successful operation
+      summary: "Строит граф на основе входного массива"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              properties:
+                name:
+                  type: string
+                points:
+                  type: array
+                    items:
+                      type: string
+#
+#
+#  api/getGraph/{nameGraph}:
+#    get:
+#  api/deleteGraph/{nameGraph}:
+#    delete:
+#  api/updateGraph:
+#    put:
+#  api/test:
+#    get:
+
+

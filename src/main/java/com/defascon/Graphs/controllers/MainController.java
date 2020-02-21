@@ -4,6 +4,7 @@ package com.defascon.Graphs.controllers;
 import com.defascon.Graphs.dto.GraphService;
 import com.defascon.Graphs.dto.PointsGraph;
 import com.defascon.Graphs.dto.UndirectedGraph;
+import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
@@ -12,6 +13,7 @@ import java.util.Map;
 
 @RestController()
 @RequestMapping("/api")
+@Api
 public class MainController {
     private Map<String,UndirectedGraph> graphMap = new HashMap<>();
     private GraphService graphService = new GraphService();
@@ -34,7 +36,7 @@ public class MainController {
                 graphService.graphBuilding(pointsGraph.getPoints()));
     }
 
-    @GetMapping("/deleteGraph/{nameGraph}")
+    @DeleteMapping("/deleteGraph/{nameGraph}")
     public void deleteGraph(@PathVariable String nameGraph, HttpServletResponse response){
         graphMap.remove(nameGraph);
     }
